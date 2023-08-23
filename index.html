@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .main-header {
+                margin: 0 auto;
+                overflow: hidden;
+                width: 50%;
+                padding-top: 7px;
+            }
+            .main-logo {        
+                width: 262px;
+                height: 60px;
+                float: left;
+            }
+            .main-nav {
+                float: right;
+                overflow: hidden;
+                /* padding-top: 30px; */
+            }
+            .login-box {
+                text-align: right;
+            }
+            .login-box > span {
+                font-size: 10px;
+                padding: 0px 5px;
+                border-right: 1px solid black;
+            }
+            .login-box > span:last-child {
+                border: 0;
+            }
+            .nav-cell {
+                float: left;
+                list-style-type: none;
+                padding: 10px;
+                color: #878f92;
+                font-size: 14px;
+            }
+            .header-hr {
+                background-color: #eeeeee;
+                height: 2px;
+                border: 0;
+            }
+            .main-section {
+                margin: 0 auto;
+                width: 50%;
+            }
+            .main-banner {
+                width: 992px;
+                height: 424px;
+            }
+            .main-p {
+                /* margin: 0 auto; */
+                text-align: center;
+                margin: 30px;
+            }
+            .main-p2 {
+                margin: 0 auto;
+                text-align: center;
+                margin: 30px;
+            }
+            .section-hr {
+                margin: 0 auto;
+                background-color: black;
+                height: 2px;
+                border: 0;
+                width: 100px;
+            }
+            .second-section {
+                background-color: #1b1b1b;
+                padding: 50px;
+                overflow: hidden;
+            }
+            .section-box {
+                border: 1px solid gray;
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 10px 50px;
+                margin: 0 20px;
+            }
+            .section-box-cover {
+                width: 60%;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="main-header">
+            <img src="img/logo@2x.png" alt="logo" class="main-logo">
+            <nav class="main-nav">
+                <div class="login-box">
+                    <span>anseonghyeon</span>
+                    <span>설정</span>
+                    <span>로그아웃</span>
+                </div>
+                <ul>
+                    <li class="nav-cell">문제</li>
+                    <li class="nav-cell">문제집</li>
+                    <li class="nav-cell">대회</li>
+                    <li class="nav-cell">채점 현황</li>
+                    <li class="nav-cell">랭킹</li>
+                    <li class="nav-cell">게시판</li>
+                    <li class="nav-cell">그룹</li>
+                    <li class="nav-cell">더 보기</li>
+                </ul>
+            </nav>
+        </header>
+        <hr class="header-hr">
+        <section class="main-section">
+            <img src="img/banner.png" alt="banner" class="main-banner">
+            <p class="main-p">Baekjoon Online Judge</p>
+            <hr class="section-hr">
+            <p class="main-p2">프로그래밍 문제를 풀고 온라인으로 채점받을 수 있는 곳입니다.</p>
+        </section>
+        <section class="second-section">
+            <div class="section-box-cover">
+                <div class="section-box">
+                    <p>28449</p>
+                    <p>전체 문제</p>
+                </div>
+                <div class="section-box">
+                    <p>27255</p>
+                    <p>채점 가능한 문제</p>
+                </div>
+                <div class="section-box">
+                    <p>23891</p>
+                    <p>풀린 문제</p>
+                </div>
+                <div class="section-box">
+                    <p>71</p>
+                    <p>채점 가능한 언어</p>
+                </div>
+            </div>
+            
+        </section>
+    </body>
+</html>
